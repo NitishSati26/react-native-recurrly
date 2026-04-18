@@ -12,10 +12,10 @@ import { styled } from "nativewind";
 import { useState } from "react";
 import { FlatList, Image, Text, View } from "react-native";
 import { SafeAreaView as RNSafeAreaView } from "react-native-safe-area-context";
-import ListHeading from "../components/ListHeading";
-import SubscriptionCard from "../components/SubscriptionCard";
-import UpcomingSubscriptionCard from "../components/UpcomingSubscriptionCard";
-import { formatCurrency } from "../lib/utils";
+import ListHeading from "../../components/ListHeading";
+import SubscriptionCard from "../../components/SubscriptionCard";
+import UpcomingSubscriptionCard from "../../components/UpcomingSubscriptionCard";
+import { formatCurrency } from "../../lib/utils";
 
 const SafeAreaView = styled(RNSafeAreaView);
 
